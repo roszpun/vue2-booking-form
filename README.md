@@ -1,11 +1,17 @@
-# eobuwie
+# A Recruitmen assignmnt for eobuwie.pl
 
-## Project setup
+## Getting started
+```
+git clone https://github.com/roszpun/vue2-booking-form.git
+```
+```
+cd vue2-booking-form
+```
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Running development environment
 ```
 npm run serve
 ```
@@ -15,20 +21,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
+### Run unit tests
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
