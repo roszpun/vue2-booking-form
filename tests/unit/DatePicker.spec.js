@@ -1,5 +1,5 @@
 import { shallowMount } from "@vue/test-utils";
-import DatePicker from "@/components/DatePicker.vue";
+import DatePicker from "@/components/BookingForm/DatePicker.vue";
 
 const mapDaysfromRows = vm => {
   return vm.daysPerRow.map(row => row.map(day => day.day));
