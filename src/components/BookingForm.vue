@@ -1,9 +1,7 @@
 <template>
   <div class="booking-form" ref="pickerWrapper">
     <div class="price-raiting-container">
-      <!-- Replace with component -->
-      <h2 class="price-per-day">298 zł</h2>
-      <!--  -->
+      <Price :price="298"/>
       <Rating
         class="rating-component"
         :rating="4.5"
@@ -37,11 +35,13 @@
 <script>
 import Rating from "./BookingForm/Rating";
 import DatePicker from "./BookingForm/DatePicker";
+import Price from "./BookingForm/Price";
 import isValidDate from "./../helpers/isValidDate.js";
 export default {
   name: "BookingForm",
   components: {
     Rating,
+    Price,
     DatePicker
   },
   data() {
