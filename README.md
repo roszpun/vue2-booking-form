@@ -1,4 +1,4 @@
-# A Recruitmen assignmnt for eobuwie.pl
+# A booking form with calendar with VUE
 
 ## Getting started
 ```
